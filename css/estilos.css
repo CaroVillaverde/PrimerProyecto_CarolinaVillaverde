@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+@font-face {
+  font-family: "Aleo-Italic-Variable";
+  src: url("../assets/fonts/Aleo-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Onest-Variable";
+  src: url("../assets/fonts/Onest-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Muli-Regular";
+  src: url("../assets/fonts/Muli-Regular.ttf");
+}
+@font-face {
+  font-family: "Muli-Black";
+  src: url("../assets/fonts/Muli-Black.ttf");
+}
+@font-face {
+  font-family: "Muli-Light";
+  src: url("/assets/fonts/Muli-Light.ttf");
+}
+/*reseteo de valores*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+
+main {
+  font-family: "Muli-Regular", sans-serif;
+  color: black;
+  margin-bottom: 50px;
+}
+header{
+  top: 0;
+  background-color: #f03786;
+  font-family: "Onest-Variable", sans-serif;
+
+}
+body{
+  justify-content: center;
+  min-height:100vh;
+  align-items: flex-end;
+  background-color: white;
+}
+main{
+  margin-bottom: 50px;
+}
+.tituloPrincipal {
+  font-family: "Muli-Regular";
+  font-size: 3.5rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+.imagen {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  height: 350px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.destacar{
+  font-family: "Muli-Regular";
+  color: rgb(241, 11, 172);
+}
+
+.h2index {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  text-align: center;
+}
+.h2contacto{
+text-align: center;
+}
+.text{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rem;
+  margin-top: 15px;
+  margin-bottom: 150px;
+  font-family: "Aleo-Italic-Variable";
+}
+.textoInfo {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 400px;}
+
+.textoContacto{
+  margin-top: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+.input-container { 
+  margin-left: 60px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.formulario{
+  margin-top: 20px;
+  background-color: #f7dee9;
+  width: 600px;
+  margin: 0 auto;
+}
+
+footer{
+  position:relative;
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  background:  rgb(255, 0, 128);
+  height: 200px;
+  padding: 20px 50px;
+  flex-direction: column;
+}
+
+footer .social-icons, 
+footer .menu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+footer .social-icons li, 
+footer .menu li{
+  list-style: none;
+}
+footer .social-icons li a{
+  font-size: 2em;
+  color: white;
+  margin: 0 10px;
+  display:  inline-block;
+  transition: 0.5s;
+}
+footer .social-icons li a:hover{
+  transform: translateY(-10px);
+}
+footer .menu li a {
+  font-size: 1.2em;
+  color: rgb(240, 182, 225);
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: 0.5s;
+}
+
+footer .menu li a:hover{
+  opacity: 1;
+}
+footer .wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(../assets/img/footer.png);
+  background-size: 1000px  100px;
+}
+footer .wave#wave1 {
+  z-index: 100;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2 {
+  z-index: 99;
+  opacity: 0.5;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
+}
+footer .wave#wave3 {
+  z-index: 100;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWave-02 3s linear infinite;
+}
+footer .wave#wave4 {
+  z-index: 99;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave-02 3s linear infinite;
+}
+@keyframes animateWave{
+  0%{
+    background-position-x: 500px;
+  }
+  100%{
+    background-position-x: 0px ;
+  }
+}
+@keyframes animateWave-02 {
+  0%{
+    background-position-x: 0px;
+  }
+  100%{
+    background-position-x: 100px ;
+  }
+}
+.derechos{
+  font-family: "Muli-Regular";
+  margin-top: 50px;
+}
+@media (max-width: 740px) {
+  main{
+    padding: 20px;
+    .tituloPrincipal {
+      font-size: 3rem;
+    }
+    .imagen{
+      width: 400px;
+      height: 400px;
+      margin:0 auto;
+    }
+      .textoInfo {
+      font-size: 0.9rem;
+      margin: 50px;
+    }
+    .contenedor {
+      flex-direction: column; 
+    }
+    .formulario{
+      margin-top: 20px;
+      background-color: #f7dee9;
+      width: 300px;
+      margin: 0 auto;
+    }
+    .input-container{
+     font-size: 20px;
+     margin: auto;
+    }
+  }
+  footer{
+    width: 523px;
+    height: 250px;
+  } 
+}
