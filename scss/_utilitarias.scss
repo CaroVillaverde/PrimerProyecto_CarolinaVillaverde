@@ -1,0 +1,72 @@
+body{
+    justify-content: center;
+    min-height:100vh;
+    align-items: flex-end;
+    background-color: white;
+  }
+.tituloPrincipal {
+    font-family: "Muli-Regular";
+    font-size: 3.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+  }
+  .imagen {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 350px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .destacar{
+    font-family: "Muli-Regular";
+    color: rgb(241, 11, 172);
+  }
+
+  .h2index {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .h2contacto{
+  text-align: center;
+  }
+  .text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32rem;
+    margin-top: 15px;
+    margin-bottom: 150px;
+    font-family: "Aleo-Italic-Variable";
+  }
+  .textoInfo {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 400px;}
+  
+  .textoContacto{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .input-container { 
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .formulario{
+    margin-top: 20px;
+    background-color: #f7dee9;
+    width: 600px;
+    margin: 0 auto;
+  }
+  
