@@ -13,22 +13,19 @@ body{
   }
   .contenedor {
     display: flex;
-    justify-content: center;
   }
   .imagen {
-    margin-left: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 5px;
-    height: 350px;
-    width: 400px;
-    display: flex;
+    height: 400px;
+    width: 280px;
     justify-content: center;
     max-width: 100%;
   }
   .destacar{
     font-family: "Muli-Regular";
-    color: rgb(241, 11, 172);
+    color: black;
   }
 
   .h2index {
@@ -55,18 +52,19 @@ body{
   
   .textoContacto{
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 16px;
     text-align: center;
   }
-  .input-container { 
-    margin-left: 60px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
+ 
   .formulario{
     margin-top: 20px;
     background-color: #f7dee9;
-    width: 600px;
+    width: 400px;
     margin: 0 auto;
+    .input-container { 
+      margin-left: 60px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
   }
-  
+ 

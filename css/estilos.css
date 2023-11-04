@@ -16,24 +16,21 @@ body {
 
 .contenedor {
   display: flex;
-  justify-content: center;
 }
 
 .imagen {
-  margin-left: 30px;
   margin-bottom: 20px;
   margin-top: 20px;
   border-radius: 5px;
-  height: 350px;
-  width: 400px;
-  display: flex;
+  height: 400px;
+  width: 280px;
   justify-content: center;
   max-width: 100%;
 }
 
 .destacar {
   font-family: "Muli-Regular";
-  color: rgb(241, 11, 172);
+  color: black;
 }
 
 .h2index {
@@ -64,21 +61,20 @@ body {
 
 .textoContacto {
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 16px;
   text-align: center;
-}
-
-.input-container {
-  margin-left: 60px;
-  margin-right: 10px;
-  margin-bottom: 10px;
 }
 
 .formulario {
   margin-top: 20px;
   background-color: #f7dee9;
-  width: 600px;
+  width: 400px;
   margin: 0 auto;
+}
+.formulario .input-container {
+  margin-left: 60px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 @font-face {
@@ -118,6 +114,27 @@ main {
   font-family: "Muli-Regular", sans-serif;
   color: black;
   margin-bottom: 50px;
+}
+
+.flork {
+  font-family: "Aleo-Italic-Variable" sans-serif;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+.contenedorImagen {
+  display: flex;
+  flex-direction: row;
+}
+
+.textoNosotros {
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.terceraimg {
+  margin-top: 100px;
 }
 
 footer {
@@ -245,25 +262,18 @@ footer .wave#wave4 {
     height: 400px;
     margin: 0 auto;
   }
-  main .textoInfo {
-    font-size: 0.9rem;
-    margin: 50px;
-  }
-  main .contenedor {
-    flex-direction: column;
-  }
   main .formulario {
     margin-top: 20px;
     background-color: #f7dee9;
-    width: 300px;
+    width: 600px;
     margin: 0 auto;
   }
-  main .input-container {
+  main .formulario .input-container {
     font-size: 20px;
     margin: auto;
   }
   footer {
-    width: 1400px;
+    width: 1347px;
     height: 250px;
   }
 }

@@ -113,26 +113,20 @@ footer{
         height: 400px;
         margin:0 auto;
       }
-        .textoInfo {
-        font-size: 0.9rem;
-        margin: 50px;
-      }
-      .contenedor {
-        flex-direction: column; 
-      }
       .formulario{
         margin-top: 20px;
         background-color: #f7dee9;
-        width: 300px;
+        width: 600px;
         margin: 0 auto;
+        .input-container{
+          font-size: 20px;
+          margin: auto;
+         }
       }
-      .input-container{
-       font-size: 20px;
-       margin: auto;
-      }
+      
     }
     footer{
-      width: 1400px;
+      width: 1347px;
       height: 250px;
     } 
   }

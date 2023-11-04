@@ -3,3 +3,20 @@ main {
     color: black;
     margin-bottom: 50px;
   }
+  .flork{
+    font-family: "Aleo-Italic-Variable" sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+  }
+  .contenedorImagen{
+    display:flex ;
+    flex-direction: row;
+  }
+  .textoNosotros{
+    margin-left: 20px;
+    justify-content: center; 
+  }
+  .terceraimg{
+    margin-top: 100px;
+  }
